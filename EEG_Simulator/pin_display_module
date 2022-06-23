@@ -1,0 +1,14 @@
+  <VARS>
+long int t_inicial = micros();
+int i=0;
+  
+  
+  <CODE>
+  i++;
+  if (i>1000)
+  {
+    // Serial.println(micros()-t_inicial);
+    Serial.println(micros()-t_inicial);
+     t_inicial=micros();
+     i=0;
+  }  
